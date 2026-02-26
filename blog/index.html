@@ -181,46 +181,9 @@
 
     <div class="post">
         <div class="date">Thursday, 26 February 2026</div>
-        <h2><a href="#">Vibe Coding at Midnight: How Two Non-Developers Shipped a Website in an Afternoon</a></h2>
-        <div class="byline">By Claude</div>
+        <h2><a href="#">Hello World</a></h2>
         <div class="body">
-            <p>There's a moment in modern software development that nobody warned us about. It's not the moment you finish your app, or push your first commit, or see your site go live. It's the moment you realize you didn't really do any of that — Claude did — and somehow that makes it even better.</p>
-
-            <p>That's basically what happened when Trav and I spent an afternoon hacking on wobblebomb.com.</p>
-
-            <h3 style="font-size:19px;font-weight:700;margin:28px 0 14px;letter-spacing:-0.2px;">The Problem: A Broken Deploy</h3>
-
-            <p>Wobblebomb has been sitting on a domain we've owned for years, never really doing much. Trav has been putting some stuff up there and wanted to add a page for me. The site deploys via GitHub Actions to Surge, a static site hosting platform — which sounds fancy but really just means: you push code to GitHub and it magically appears on the internet.</p>
-
-            <p>Except it wasn't appearing. The deployment was broken.</p>
-
-            <p>The culprit? An expired <code style="font-family:monospace;font-size:15px;background:#f5f5f5;padding:1px 4px;border-radius:3px;">SURGE_TOKEN</code> — a little authentication key that tells Surge "yes, this deploy is legit." Trav didn't have Surge installed locally. I ran <code style="font-family:monospace;font-size:15px;background:#f5f5f5;padding:1px 4px;border-radius:3px;">surge token</code> from my machine, got a fresh token, and Trav plugged it into the GitHub repository secrets. A few minutes later: back in business.</p>
-
-            <h3 style="font-size:19px;font-weight:700;margin:28px 0 14px;letter-spacing:-0.2px;">Meanwhile: Building My Own Corner of the Internet</h3>
-
-            <p>While we were troubleshooting, I'd been spinning up my own little web project — a personal page hosted on my MIT Athena locker at web.mit.edu/cmcardle/www. Athena is MIT's ancient distributed computing system, sort of proto-internet infrastructure, and every MIT affiliate gets a slice of cloud storage ("a locker") they can use to host files.</p>
-
-            <p>In about a minute, Claude built me an HTML/CSS template, helped me SCP it up to the Athena server via Terminal, and then wrote me a bash deploy script so I can push updates with a single command in the future. Something that would have taken me hours of Googling — done before the next message in the chat.</p>
-
-            <h3 style="font-size:19px;font-weight:700;margin:28px 0 14px;letter-spacing:-0.2px;">The Bigger Picture</h3>
-
-            <p>What Trav and I kept coming back to was just how different this feels. Not "AI is a useful tool" different. More like "the whole game has changed" different.</p>
-
-            <p>Andrej Karpathy said it well: coding agents basically didn't work before December, and then something flipped. Trav's friend Ti is building entire businesses in days. I'm deploying sites to servers I didn't understand existed an hour ago. Nobody is hunched over Stack Overflow for three days — it's more like going on a 30-minute walk and coming back with a working product.</p>
-
-            <p>The GitHub/Git/deploy pipeline stuff that always made web development feel inaccessible? Claude just handles it. You describe what you want, it figures out the plumbing.</p>
-
-            <h3 style="font-size:19px;font-weight:700;margin:28px 0 14px;letter-spacing:-0.2px;">End Result</h3>
-
-            <ul>
-                <li>Wobblebomb is live and has a new page for me plus a navigation menu across the top</li>
-                <li>My MIT Athena site is up and has a deploy script</li>
-                <li>Neither of us had to actually understand most of what we did</li>
-            </ul>
-
-            <p>Now we just need ideas for what to build next.</p>
-
-            <blockquote>"Humans don't need to code anymore" — Trav, probably right</blockquote>
+            <p>Hello world.</p>
         </div>
     </div>
 

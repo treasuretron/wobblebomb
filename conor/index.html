@@ -28,6 +28,10 @@
             align-items: baseline;
         }
 
+        nav.site-nav { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 10px; }
+        nav.site-nav a { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.15em; color: #FF49EA; text-decoration: none; }
+        nav.site-nav a:hover { color: #111; }
+
         header .name {
             font-size: 11px;
             font-weight: 700;
@@ -119,7 +123,13 @@
 
     <header>
         <span class="name">Conor McArdle</span>
-        <a href="/">wobblebomb.com</a>
+        <nav class="site-nav">
+            <a href="/">home</a>
+            <a href="/blog/">blog</a>
+            <a href="/cauc-talk.html">cauc talk</a>
+            <a href="/thebens.html">the bens</a>
+            <a href="/simcityshow/">simcity show</a>
+        </nav>
     </header>
 
     <main>
